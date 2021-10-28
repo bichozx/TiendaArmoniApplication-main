@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TiendaArmoniApplication</string>
+    <string name="inicio">Iniciar sesion</string>
+    <string name="registro">Registar</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="configpassword">Confirmar Password</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="pais">Pais</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="logo">Logo</string>
+    <string name="titulo">EnArmonia</string>
+
+</resources>

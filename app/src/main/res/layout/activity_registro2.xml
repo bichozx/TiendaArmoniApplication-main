@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9786a6"
+    tools:context=".RegistroActivity2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="299dp"
+        android:layout_height="414dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="100dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/eTNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:ems="10"
+            android:fontFamily="@font/roboto_slab_light"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="#0E0E0E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eTApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:ems="10"
+            android:fontFamily="@font/roboto_slab_light"
+            android:hint="@string/apellido"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="#0E0E0E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eTCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/sym_action_email"
+            android:ems="10"
+            android:fontFamily="@font/roboto_slab_light"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColorHint="#0E0E0E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eTPais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_mapmode"
+            android:ems="10"
+            android:fontFamily="@font/roboto_slab_light"
+            android:hint="@string/pais"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="#0E0E0E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eTCiudad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_mapmode"
+            android:ems="10"
+            android:fontFamily="@font/roboto_slab_light"
+            android:hint="@string/ciudad"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="#0E0E0E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eTPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_view"
+            android:ems="10"
+            android:fontFamily="@font/roboto_slab_light"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="#0E0E0E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eTConfigpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_view"
+            android:ems="10"
+            android:fontFamily="@font/roboto_slab_light"
+            android:hint="@string/configpassword"
+            android:inputType="textPassword"
+            android:onClick="registrarusuario"
+            android:textAlignment="center"
+            android:textColorHint="#0E0E0E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bTRegistroingre"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:fontFamily="@font/roboto_slab_light"
+        android:hint="@string/registro"
+        android:textColorHint="#0E0E0E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.507" />
+</androidx.constraintlayout.widget.ConstraintLayout>
